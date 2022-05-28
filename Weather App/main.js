@@ -80,8 +80,8 @@ var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
 
 //Function to get the correct integer for the index of the days array
 function CheckDay(day){
-    if(day + d.getDay() > 8){
-        return day + d.getDay() - 9;
+    if(day + d.getDay() > 6){
+        return day + d.getDay() - 7;
     }
     else{
         return day + d.getDay();
