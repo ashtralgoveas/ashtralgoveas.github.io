@@ -74,7 +74,7 @@ function DefaultScreen(){
 }
 
 
-//Getting and displaying the text for the upcoming five days of the week
+//Getting and displaying the text for the upcoming seven days of the week
 var d = new Date();
 var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",];
 
